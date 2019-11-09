@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1792412622714394}
+  m_IsPrefabParent: 1
+--- !u!1 &1792412622714394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4872347698086410}
+  - component: {fileID: 33505209291218072}
+  - component: {fileID: 23895467227882100}
+  - component: {fileID: 95201756338263796}
+  - component: {fileID: 114713365670746560}
+  m_Layer: 0
+  m_Name: szachownica 1
+  m_TagString: Board
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4872347698086410
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1792412622714394}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 12, y: 12, z: 12}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 180, z: 0}
+--- !u!23 &23895467227882100
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1792412622714394}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 8190658914f82854db9e1b231a97fe89, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33505209291218072
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1792412622714394}
+  m_Mesh: {fileID: 4300000, guid: 180fb90fd01c0d341893725b05219d34, type: 3}
+--- !u!95 &95201756338263796
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1792412622714394}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 180fb90fd01c0d341893725b05219d34, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114713365670746560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1792412622714394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64cdbd75e91d664b861ec0705c87cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteRook: {fileID: 1303958270918226, guid: 8b2ae1310d7868c43abf7c12e0298ed4, type: 2}
+  blackRook: {fileID: 1608425475782958, guid: 24bd8f71e17daf341bfc08798899222d, type: 2}
+  whiteKnight: {fileID: 1963661257092956, guid: 920f08b16a9af1041b31ebd7a88769e8,
+    type: 2}
+  blackKnight: {fileID: 1998918706292556, guid: 95824062e5eec3d4488412d949c4f20b,
+    type: 2}
+  whiteBishop: {fileID: 1137279101753544, guid: af85691b8f6bc6642bc7e00f5d927c6c,
+    type: 2}
+  blackBishop: {fileID: 1570828642214444, guid: 9411e4e05f3630a40964908cffe17950,
+    type: 2}
+  whiteQueen: {fileID: 1425246881476022, guid: 3fe7a049b2bcfa64d82d751bc2a1f3f0, type: 2}
+  blackQueen: {fileID: 1853885261324600, guid: 7b21067033a17fa4a9411766335d1b69, type: 2}
+  whiteKing: {fileID: 1430142850117554, guid: fe54673214c4560478530de856f4375d, type: 2}
+  blackKing: {fileID: 1424813743221044, guid: f67f13b1f6c6a3d4e89568dc19458ea8, type: 2}
+  whitePawn: {fileID: 1511389938217704, guid: c24c40e2059f3694e8fd100fc74eb5d6, type: 2}
+  blackPawn: {fileID: 1762406018920044, guid: 355207af9c813bb4bbc5ad8ee3a6c502, type: 2}
+  MoveMarker: {fileID: 1914577727122302, guid: cb7db88d12eb581478b34d69e9d9021d, type: 2}
+  AttackMarker: {fileID: 1356623110320894, guid: 814c959e979fc2f41b188ef539ba919c,
+    type: 2}
+  SpecialMarker: {fileID: 1237499218291982, guid: 0c20c2dde293440458d25595669056c4,
+    type: 2}
